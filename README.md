@@ -35,7 +35,7 @@ npm install
 ```bash
 export JWT_SECRET="suprovytajnyklic"
 export PROXMOX_API_URL="https://tvoje-proxmox.example.com:8006"
-export PROXMOX_API_TOKEN="uzivatel@pve!token_id=xxxxxxxxxx"
+export PROXMOX_API_TOKEN='uzivatel@pve!token_id=xxxxxxxxx'"
 ```
 
 3. Spusť vývojový server:
