@@ -2,6 +2,8 @@
 
 Moderní klientský dashboard pro správu VPS přes Proxmox API. Frontend je postavený v Next.js + TypeScript, Tailwind CSS a Recharts. Backend proxuje požadavky na Proxmox API a udržuje API token bezpečně mimo frontend.
 
+- Vylepšený moderní tmavý dashboard s přehledovými kartami, živými statistikami a akcemi pro VPS.
+
 ## Funkce
 
 - Přihlášení uživatelů pomocí JWT
@@ -35,7 +37,7 @@ npm install
 ```bash
 export JWT_SECRET="suprovytajnyklic"
 export PROXMOX_API_URL="https://tvoje-proxmox.example.com:8006"
-export PROXMOX_API_TOKEN='uzivatel@pve!token_id=xxxxxxxxx'"
+export PROXMOX_API_TOKEN="uzivatel@pve!token_id=xxxxxxxxxx"
 ```
 
 3. Spusť vývojový server:
